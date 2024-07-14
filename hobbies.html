@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobs</title>
+    <style>
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #4d44af;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            /*centraliza o menu*/
+            gap: 20px;
+        }
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+            color: white;
+            text-align: center;
+
+        }
+        .card {
+            display: flex;
+            flex-flow: row wrap;
+
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+
+        .img {
+            border: 1px solid #ccc;
+            border-radius: 1rem;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .img img {
+            width: 125px;
+            height: 115px;
+        }
+
+        @media all and (min-width: 35rem) {
+            body {
+                margin: 0 auto;
+            }
+
+            /*.container {
+                max-width: 1200px;
+                margin: 0 auto;
+
+            }*/
+
+            .img {
+                max-width: 28rem;
+                margin: 1rem;
+            }
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Hobbies Fernando Martinez</h1>
+        <br>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="formação.html">Formação</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+    </nav>
+    
+
+        </aside>
+        <section class=" principal">
+            <h1><a href="index.html">Voltar</a></h1>
+
+            <h1>
+                Hobs
+            </h1>
+            <div class="card">
+                <div class="img">
+                    <img src="pexels-lanius-2118045.jpg">
+
+                    <div class="">
+                        <h2>Violão</h2>
+                        <p>fazer aulas de violão</p>
+
+                    </div>
+                </div>
+
+                <div class="img">
+                    <img src="images.jpeg">
+
+                    <div class="">
+                        <h2>Praticar esportes</h2>
+                        <p>jogar Futebol</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="viagem-turismo-marketing-digital.jpg">
+
+                    <div class="">
+                        <h2>Viagens</h2>
+                        <p>fazer viagens</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="istockphoto-1445196818-612x612.jpg" width="100%">
+
+                    <div class="">
+                        <h2>Animais</h2>
+                        <p>Passar um tempo<br>com animas pets<br>fazer passeios com animais</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="container">
+        <h1> Aluno: Fernando Martinez</h1>
+        <br>
+        <h2>Ru: 3461560</h2>
+    </footer>
+    </footer>
+    </div>
+</body>
+
+</html>
